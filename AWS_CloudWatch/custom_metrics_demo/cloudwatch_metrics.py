@@ -23,7 +23,7 @@ def index():
     # Simulate processing time
     time.sleep(random.uniform(0.1, 0.5))
 
-    # Log the page view metric to CloudWatch
+    # Log the page view metric to CloudWatch for testing
     log_metric('PageViews', 1)
 
     # Log the response time metric to CloudWatch
